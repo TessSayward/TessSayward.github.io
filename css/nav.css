@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+}
+
+nav {
+	margin: 0;
+ 	background-color: #333;
+ 	background-color: rgba(0,0,0,.72);
+ 	font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+	display: inline-block;
+}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+	transition: all .5s;
+}
+
+nav li a:hover {
+	color: #11FAEC;
+	text-decoration: none;
+	background-color: #11FAEC;
+	color: #333;
+}
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+
+@media only screen and (min-width: 30em) {
+
+}

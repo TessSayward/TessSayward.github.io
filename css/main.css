@@ -133,7 +133,9 @@ footer{
     background-color: #B4FFFA;
     font-size: 10px;
 }
-
+footer p{
+    font-size: .7rem;
+}
 h2{
      font-size: .7rem;
      color: #B8B8B8;
@@ -141,6 +143,7 @@ h2{
 footer a{
     color: black;
     background-color: #11FAEC;
+    font-size: .9rem;
 }
 h4{
     margin-left: 10px;
@@ -253,6 +256,9 @@ h5{
     padding: 1px;
     margin: 0px;
 }
+.certfication h4{
+    font-size: 2rem;
+}
 .certification{
     margin-left: 10px;
 }
@@ -334,15 +340,12 @@ h5{
     padding: 20px;
     border-radius: 10%;
     overflow: auto;
+    margin-top: 10px;
+    margin: 15px;
 }
-.doginfo{
-    background:  #FFBE5F; 
-    padding-left: 10px;
-    padding: 20px;
-    border-radius: 10%;
-    margin-top: 30px;
+.volunteer h6{
+    margin-top: 5px;
 }
-
 .doginfo p {
     font-size: 1rem;
 }
@@ -350,8 +353,24 @@ h5{
     font-size: 1rem;
     margin: 5px;
 }
+.button{
+    margin-left: 350px;
+    margin-bottom: 10px;
+    background-color: #C781F6;
+    border: none;
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
-
+iframe{
+    width: 100%;
+}
+.visit h5, p{
+    margin-left: 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
